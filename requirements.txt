@@ -1,5 +1,6 @@
 # install via pip
-langchain[llm]
+langchain
+#langchain-community
 chainlit
 pypdf
 sentence-transformers
