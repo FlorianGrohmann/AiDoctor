@@ -1,0 +1,10 @@
+# install via pip
+langchain[llm]
+chainlit
+pypdf
+sentence-transformers
+faiss-cpu
+
+requests
+sseclient
+pydantic
