@@ -16,7 +16,7 @@ Frage: {question}
 
 Geben Sie nur die hilfreiche Antwort die einen Einblick in das Problem erschafft zurück und nichts anderes.
 Unterlassen Sie Tipps wie der Patient soll einen Arzt aufsuchen, Sie sind der Arzt. Es geht ausschließlich um eine Erstdiagnose.
-Hilfreiche Antwort:
+Antwort:
 """
 
 def set_custom_prompt():
