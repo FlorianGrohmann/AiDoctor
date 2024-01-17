@@ -8,15 +8,15 @@ from oobabooga import Oobabooga
 
 DB_FAISS_PATH = 'aidoctor/db_faiss'
 
-custom_prompt_template = """You are a Medical Bot used, to capture Informations from the users question and asnwer them clinically and clear.
-Use the following pieces of information to answer the user's question.
-If you don't know the answer, just say that you don't know, don't try to make up an answer.
+custom_prompt_template = """Sie sind ein medizinischer Bot, der dazu verwendet wird, Informationen aus der Frage des Benutzers zu erfassen und sie klinisch und klar zu beantworten.
+Verwenden Sie die folgenden Informationen, um die Frage des Benutzers zu beantworten. Wenn die Informationen nicht zur Frage passen, ignorieren Sie sie einfach.
 
-Context: {context}
-Question: {question}
+Kontext: {context}
+Frage: {question}
 
-Only return the helpful answer below and nothing else.
-Helpful answer:
+Geben Sie nur die hilfreiche Antwort die einen Einblick in das Problem erschafft zurück und nichts anderes.
+Unterlassen Sie Tipps wie der Patient soll einen Arzt aufsuchen, Sie sind der Arzt. Es geht ausschließlich um eine Erstdiagnose.
+Hilfreiche Antwort:
 """
 
 def set_custom_prompt():
