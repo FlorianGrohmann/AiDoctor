@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA
 import chainlit as cl
 from oobabooga import Oobabooga
 
-DB_FAISS_PATH = 'vectorstore/db_faiss'
+DB_FAISS_PATH = 'aidoctor/db_faiss'
 
 custom_prompt_template = """You are a Medical Bot used, to capture Informations from the users question and asnwer them clinically and clear.
 Use the following pieces of information to answer the user's question.
